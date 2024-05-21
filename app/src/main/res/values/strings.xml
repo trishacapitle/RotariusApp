@@ -1,0 +1,361 @@
+<resources>
+    <string name="app_name">User Manual</string>
+    <string name="power_on_details">
+        • Turn on the solar-powered power supply to activate the hardware components.
+    </string>
+    <string name="servo_motor_control_details">
+        • Use the Logitech Extreme 3D Pro joystick to control the collective movement of the helicopter rotor assembly.\n\n
+        • Push the joystick forward, backward, left, or right to maneuver the rotor assembly accordingly.
+    </string>
+    <string name="stepper_motor_speed_control_details">
+        • Rotate the potentiometer knob to adjust the speed of the stepper motor.\n\n
+        • Turn the knob clockwise to increase speed and counterclockwise to decrease speed.
+    </string>
+    <string name="hardware_not_responding_details">
+        • Ensure that the power supply is turned on and properly connected.\n\n
+        • Check the connections between the servo motors, stepper motor, and Arduino Mega controller.\n\n
+        • Verify that the Arduino Mega is powered on and functioning correctly.\n\n
+        • If hardware components are damaged or malfunctioning, spare parts for each component will be provided for replacement.
+    </string>
+    <string name="stepper_motor_speed_issues">
+        • If the stepper motor speed is not adjusting as expected:\n\n
+          \t\t -Check the wiring connections between the potentiometer and the Arduino Mega.\n\n
+        • Ensure that the potentiometer is functioning properly by testing with a multimeter.\n\n
+        • Adjust the code in the Arduino Mega to calibrate the speed control.\n\n
+        • If the stepper motor itself is faulty, spare stepper motor components will be provided for replacement.
+    </string>
+
+    <string name="servo_motors_not_moving_details">
+        If the servo motors are not responding to joystick inputs:\n\n
+        \t\t • Confirm that the Logitech Extreme 3D Pro joystick is connected securely to the Arduino Mega.\n\n
+        \t\t • Check the code in the Arduino Mega to ensure proper mapping of joystick inputs to servo motor control.\n\n
+        \t\t • Verify that the servo motors are receiving power and are connected correctly to the Arduino Mega.\n\n
+        \t\t • If the servo motors are damaged or malfunctioning, spare servo motor components will be provided for replacement.
+    </string>
+
+    <string name="arduino_mega_reset">
+        If troubleshooting does not resolve the issue, try resetting the Arduino Mega:\n\n
+        \t\t • Locate the reset button on the Arduino Mega board.\n\n
+        \t\t • Press the reset button to restart the microcontroller and reset any potential software issues.\n\n
+        \t\t • After resetting, check if the hardware components respond as expected.\n\n
+        \t\t • If the Arduino Mega itself is damaged or malfunctioning, spare Arduino Mega boards will be provided for replacement.
+    </string>
+    <string name="further_assistance_details">
+        If issues persist, refer to the project documentation or seek assistance from a knowledgeable individual with experience in Arduino programming and hardware troubleshooting. Spare parts will be available upon request for replacement of damaged or malfunctioning components.\n\n
+
+    </string>
+
+    <string name="components">
+        • 4 MG996R Servo Motors: Responsible for collective movement.\n\n
+        • NEMA 17 Stepper Motor: Controls the throttle.\n\n
+        • Arduino Mega: Main controller board for the system.\n\n
+        • Potentiometer: Used to control the speed of the stepper motor.\n\n
+        • Logitech Extreme 3D Pro: Controller for collective movements.\n\n
+        • Solar-Powered Power Supply: Provides power to the entire system.\n\n
+        • 3D Printed Parts: Includes rotor blades, swashplates, and other structural components.
+    </string>
+
+    <string name="assembly">
+        \t\t • Connect the MG996R servo motors to their designated positions on the rotor assembly.\n\n
+        \t\t • Attach the NEMA 17 stepper motor to its mounting point.\n\n
+        \t\t • Connect the potentiometer to the stepper motor driver.\n\n
+        \t\t• Mount the Logitech Extreme 3D Pro controller securely.\n\n
+        \t\t• Assemble the 3D printed parts as per the provided diagram.
+    </string>
+    <string name="wiring_and_connections">
+        \t\t• Connect the servo motors to the designated pins on the Arduino Mega.\n\n
+        \t\t• Wire the stepper motor to its driver, and then connect the driver to the Arduino Mega.\n\n
+        \t\t• Attach the potentiometer to the appropriate analog input on the Arduino Mega.\n\n
+        \t\t• Connect the Logitech Extreme 3D Pro to the Arduino Mega via the USB port.\n\n
+        \t\t• Ensure all connections are secure and tidy
+    </string>
+
+    <string name="power_supply">
+        \t\t• Connect the solar-powered power supply to the Arduino Mega and other components.\n\n
+        \t\t• Ensure the power supply is placed in an area with sufficient sunlight.
+
+    </string>
+    <string name="initial_power_on">
+        \t\t• Turn on the solar-powered power supply.\n\n
+        \t\t• Verify that all components receive power and the Arduino Mega lights up.
+    </string>
+
+    <string name="turning_on_the_system">
+        \t\t• Switch on the solar-powered power supply.\n\n
+        \t\t• Ensure all components are powered up correctly
+    </string>
+    <string name="controlling_the_rotor_assembly">
+        \t\t• Use the Logitech Extreme 3D Pro controller to manage collective movements.\n\n
+        \t\t• Push the stick forward/backward to control pitch.\n\n
+        \t\t• Adjust the potentiometer to control the speed of the NEMA 17 stepper motor
+    </string>
+    <string name="calibration_and_testing">
+        \t\t• Perform initial tests by moving the controller to ensure the servo motors respond correctly.\n\n
+        \t\t• Adjust the potentiometer and verify the stepper motor’s speed changes accordingly.
+    </string>
+    <string name="safety_precautions">
+        \t\t• Always turn off the power supply before making any adjustments.\n\n
+        \t\t• Handle all components with care to avoid damage.\n\n
+        \t\t• Ensure the rotor assembly is placed in a safe, stable area during operation.
+    </string>
+    <string name="power_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check if the solar-powered power supply is properly connected and exposed to sufficient sunlight.\n\n
+        \t\t\t\t2. Ensure all connections from the power supply to the hardware are secure.\n\n
+        \t\t\t\t3. Verify that the power switch is turned on.
+
+    </string>
+
+    <string name="servo_motors_issue">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure that the Logitech Extreme 3D Pro controller is properly connected to the Arduino Mega.\n\n
+        \t\t\t\t2. Check the connections between the servo motors and the Arduino Mega.\n\n
+        \t\t\t\t3. Press the reset button on the Arduino Mega to restart the system.
+    </string>
+
+    <string name="stepper_motor_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check the connection between the stepper motor and the potentiometer.\n\n
+        \t\t\t\t2. Ensure the stepper motor driver is properly connected to the Arduino Mega.\n\n
+        \t\t\t\t3. Press the reset button on the Arduino Mega to restart the system.
+    </string>
+    <string name="connetivity_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure all cables and connections between components (Arduino Mega, servo motors, stepper motor, potentiometer, and Logitech controller) are secure.\n\n
+        \t\t\t\t2. Check for any loose wires or broken connections.\n\n
+        \t\t\t\t3. Reset the Arduino Mega to re-establish connections.
+
+    </string>
+    <string name="movement_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Check the alignment and secure mounting of all mechanical parts.\n\n
+        \t\t\t\t2. Ensure the servo motors and stepper motor are properly calibrated and receiving correct signals from the Arduino.
+    </string>
+    <string name="general_maintenance">
+        \t• Solution:\n\n
+        \t\t\t\t1. Regularly check all connections and secure any loose wires or components.\n\n
+        \t\t\t\t2. Clean the hardware components to prevent dust and debris buildup.\n\n
+        \t\t\t\t3. Lubricate moving parts to ensure smooth operation.
+    </string>
+    <string name="software_issues">
+        \t• Solution:\n\n
+        \t\t\t\t1. Ensure the latest version of the software is installed.\n\n
+        \t\t\t\t2. Restart the software and, if necessary, reinstall it.
+    </string>
+    <string name="emergency_shutdown">
+        \t• Solution:\n\n
+        \t\t\t\t1. Turn off the power supply immediately.\n\n
+        \t\t\t\t2. Disconnect the solar power supply from the hardware.\n\n
+        \t\t\t\t3. Ensure all components have powered down safely before performing any checks or repairs.
+    </string>
+    <string name="MG996R_servo_motors">
+        \t\t• Description: The MG996R is a high-torque servo motor commonly used in robotics and mechanical applications.\n\n
+        \t\t• Function: Responsible for controlling the collective movement of the helicopter rotor blades, allowing for precise adjustments in pitch.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• High torque output\n\n
+        \t\t\t\t• Metal gears for durability\n\n
+        \t\t\t\t• Wide operating voltage range
+    </string>
+    <string name="NEMA_17_Stepper_Motor">
+        \t\t• Description: A type of stepper motor widely used in 3D printers, CNC machines, and other applications requiring precise control of movement.\n\n
+        \t\t• Function: Controls the throttle of the rotor assembly, regulating the speed of the rotor blades.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• High precision and control\n\n
+        \t\t\t\t• Robust and reliable performance\n\n
+        \t\t\t\t• Multiple step angles for detailed movement
+
+    </string>
+    <string name="Arduino_Mega">
+        \t\t• Description: A microcontroller board based on the ATmega2560, offering extensive I/O capabilities.\n\n
+        \t\t• Function: Acts as the main controller for the system, processing inputs from the potentiometer and the Logitech controller to manage the servo and stepper motors.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• 54 digital I/O pins\n\n
+        \t\t\t\t• 16 analog inputs\n\n
+        \t\t\t\t• Large memory capacity for complex programs
+
+    </string>
+
+    <string name="potentiometer">
+        \t\t• Description: An adjustable resistor used to control electrical devices.\n\n
+        \t\t• Function: Used to adjust the speed of the NEMA 17 stepper motor by varying resistance and providing input to the Arduino Mega.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• Smooth rotation for precise control\n\n
+        \t\t\t\t• Durable construction\n\n
+        \t\t\t\t• Easy to integrate with microcontrollers
+    </string>
+    <string name="Logitech_Extreme_3D_Pro">
+        \t\t• Description: A joystick controller designed for gaming and simulation applications.\n\n
+        \t\t• Function: Provides input for controlling the collective movements of the rotor blades, allowing users to simulate real-life helicopter maneuvers.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• 12 programmable buttons\n\n
+        \t\t\t\t• High-precision joystick\n\n
+        \t\t\t\t• Comfortable and ergonomic design
+    </string>
+    <string name="Solar_Powered_Power_Supply">
+        \t\t• Description: A power supply unit that converts solar energy into electrical energy to power the system.\n\n
+        \t\t• Function: Provides renewable and sustainable power to the entire rotor assembly model.\n\n
+        \t\t• Key Features:\n\n
+        \t\t\t\t• Environmentally friendly energy source\n\n
+        \t\t\t\t• Reliable power output\n\n
+        \t\t\t\t• Reduces dependency on traditional power sources
+    </string>
+    <string name="Printed_Parts">
+    \t\t• <b> Swashplate </b>\n\n
+    \t\t\t\t• Description: A critical part of the rotor system that connects to the rotor blades.\n\n
+    \t\t\t\t• Function: Allows for the transfer of control inputs from the servos to the rotor blades.\n\n\n
+        \t\t• <b>Lower Swashplate</b>\n\n
+    \t\t\t\t• Description: Works in conjunction with the upper swashplate to control the blade pitch.\n\n
+    \t\t\t\t• Function: Ensures coordinated movement of the rotor blades.\n\n\n
+    \t\t• <b>Blade Grip</b>\n\n
+    \t\t\t\t• Description: Holds the rotor blades securely.\n\n
+    \t\t\t\t• Function: Ensures stable attachment of the rotor blades to the assembly.\n\n\n
+        \t\t• <b>Rotor Blades</b>\n\n
+    \t\t\t\t• Description: Main aerodynamic surfaces that generate lift.\n\n
+    \t\t\t\t• Function: Provide the necessary lift and thrust for the rotor assembly.\n\n\n
+        \t\t• <b>Ball Joint</b>\n\n
+    \t\t\t\t• Description: A spherical bearing allowing for multi-directional movement.\n\n
+    \t\t\t\t• Function: Facilitates smooth movement of control surfaces.\n\n\n
+        \t\t• <b>Rotor Mast</b>\n\n
+    \t\t\t\t• Description: The central shaft of the rotor system.\n\n
+    \t\t\t\t• Function: Supports the rotor blades and transmits rotational force.\n\n\n
+    \t\t•     <b>Base</b>\n\n
+    \t\t\t\t• Description: The foundation of the rotor assembly model.\n\n
+    \t\t\t\t• Function: Provides stability and support to the entire structure.\n\n\n
+        \t\t• <b>Servo Base</b>\n\n
+    \t\t\t\t• Description: Mounting platform for servo motors.\n\n
+    \t\t\t\t• Function: Secures the servos in place for optimal performance.
+    </string>
+
+
+    <string name="Terms_and_Conditions">
+    \t\t <b>Terms and Conditions</b>\n\n
+    \t\t Welcome to the Rotarius. These Terms and Conditions govern your use of the Application, provided by Rotarius research team located at Pangasinan. By using the Application, you agree to comply with and be bound by these Terms.\n\n
+    \t\t <b>2. Eligibility</b>\n\n
+    \t\t The Application is intended for use by students, educators, and authorized personnel at WCC ATC Binalonan Campus. By using the Application, you represent and warrant that you are authorized to access and use it in accordance with these Terms.\n\n
+    \t\t <b>3. Use of the Application</b>\n\n
+    \t\t 3.1 Educational Purpose: The Application is designed for educational purposes to enhance student learning of rotor dynamics and control. Any other use is strictly prohibited.\n\n
+    \t\t 3.2 User Conduct: Users agree to use the Application responsibly and ethically. Users shall not:\n\n
+    \t\t\t\t Modify, distribute, or create derivative works based on the Application.\n\n
+    \t\t\t\t Use the Application for any unlawful or fraudulent purpose.\n\n
+    \t\t\t\t Interfere with the operation of the Application or access it in a manner that could damage, disable, or impair its functionality.\n\n
+    \t\t 3.3 Hardware Interaction: Users must follow all provided guidelines and instructions when interacting with the hardware components associated with the Application to ensure safety and proper operation.\n\n
+    \t\t <b>4. Intellectual Property</b>\n\n
+    \t\t All content, features, and functionality of the Application, including but not limited to text, graphics, logos, and software, are the exclusive property of Rotarius research team and are protected by intellectual property laws. Users are granted a limited, non-exclusive, non-transferable license to use the Application for its intended educational purpose.\n\n
+    \t\t <b>5. Privacy</b>\n\n
+    \t\t Your use of the Application is also governed by our Privacy Policy, which explains how we collect, use, and protect your information. By using the Application, you consent to our Privacy Policy.\n\n
+    \t\t <b>6. Limitation of Liability</b>\n\n
+    \t\t To the fullest extent permitted by law, Rotarius research team shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Application, even if we have been advised of the possibility of such damages. This includes, but is not limited to, damages for loss of profits, data, or other intangible losses.\n\n
+    \t\t <b>7. Disclaimer of Warranties</b>\n\n
+    \t\t The Application is provided on an "as-is" and "as-available" basis. Rotarius research team makes no representations or warranties of any kind, express or implied, regarding the Application\'s operation or the information, content, or materials included therein. To the fullest extent permitted by law, we disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.\n\n
+    \t\t <b>8. Termination</b>\n\n
+    \t\t We reserve the right to terminate or suspend your access to the Application, without notice, for conduct that we believe violates these Terms or is harmful to other users or the interests of Rotarius research team.\n\n
+    \t\t <b>9. Governing Law</b>\n\n
+    \t\t These Terms shall be governed and construed in accordance with the laws of Philippines, without regard to its conflict of law provisions.\n\n
+    \t\t <b>10. Changes to Terms</b>\n\n
+    \t\t We reserve the right to modify these Terms at any time. We will notify users of any changes by posting the new Terms on the Application. Your continued use of the Application after such changes constitutes your acceptance of the new Terms. \n\n
+    </string>
+    <string name="Safety_Precautions">
+    \t\t <b>SAFETY PRECAUTION</b>\n\n
+    \t\t Your safety is paramount when using our hardware with the app. Please adhere to the following safety precautions:\n\n
+    \t\t <b>1. Read Instructions</b>: Before using the hardware, carefully read and understand the user manual provided. Familiarize yourself with the proper setup and operation procedures.\n\n
+    \t\t <b>2. Inspect Equipment</b>: Before each use, visually inspect the hardware components for any signs of damage or wear. Do not use the hardware if you notice any defects or abnormalities.\n\n
+    \t\t <b>3. Secure Setup</b>: Ensure that the hardware is securely assembled and mounted according to the manufacturer\'s guidelines. Use appropriate tools and fasteners to prevent any instability or movement during operation.\n\n
+    \t\t <b>4. Check Power Supply</b>: Verify that the power supply is connected correctly and functioning properly. Avoid using damaged or frayed power cords, and never overload electrical outlets.\n\n
+    \t\t <b>5. Wear Protective Gear</b>: When operating the hardware, wear appropriate personal protective equipment.\n\n
+    \t\t <b>6. Supervise Usage</b>: Do not leave the hardware unattended while in operation. Always supervise users, particularly those who may be unfamiliar with the equipment.\n\n
+    \t\t <b>7. Follow Operational Limits</b>: Operate the hardware within its specified operational limits and capacity. Avoid exceeding recommended speeds, loads, or other performance parameters to prevent damage or accidents.\n\n
+    </string>
+
+    <string name="agree_tc">
+        		 <b>I Agree to the Terms and Conditions.</b>
+    </string>
+    <string name="agree_sp">
+        		 <b>I will follow the safety precautions.</b>
+    </string>
+
+    <string name="pre_title"><b>Pre-Start Checks:</b></string>
+    <string name="pre_1"><b>1. Inspect Power Supply:</b></string>
+    <string name="pre_1_detail">Ensure the solar-powered power supply is fully charged.</string>
+    <string name="pre_1_detail2">Verify that the power supply connections are secure.</string>
+    <string name="pre_2"><b>2. Visual Inspection:</b></string>
+    <string name="pre_2_detail">Check for any visible damage or wear on all hardware components.</string>
+    <string name="pre_2_detail2">Ensure that there are no obstructions around the rotor assembly.</string>
+    <string name="pre_3"><b>3. Connection Verification:</b></string>
+    <string name="pre_3_detail">Confirm that all electrical connections are secure and properly attached.</string>
+    <string name="pre_3_detail2">Verify that the Arduino Mega is correctly connected to the servo motors, stepper motor, and joystick.</string>
+
+    <string name="start_title"><b>Start-Up Procedure:</b></string>
+    <string name="start_1"><b>1. Power On:</b></string>
+    <string name="start_1_detail">Turn on the power supply.</string>
+    <string name="start_1_detail2">Check if the Arduino UNO and Arduino Mega receives power.</string>
+    <string name="start_2"><b>2. Control Systems Check:</b></string>
+    <string name="start_2_detail">Control the joystick if the Arduino UNO receives readings from the controller.</string>
+    <string name="start_2_detail2">Test the potentiometer knob for the speed control of stepper motor.</string>
+    <string name="start_3"><b>3. Initial Movement Test:</b></string>
+    <string name="start_3_detail">Connect the four servo motors one by one to the servo controller. The connections should be: White -> White, Red -> Red, Black -> Black. Then, control the joystick to check if the servo motors are responding.</string>
+    <string name="start_3_detail2">Adjust the stepper motor speed using the potentiometer to ensure smooth operation.</string>
+    <string name="start_4"><b>4. Calibration:</b></string>
+    <string name="start_4_detail">Calibrate the joystick inputs to match the desired movements of the rotor assembly.</string>
+    <string name="start_4_detail2">Ensure the stepper motor speed range is appropriately set.</string>
+    <string name="start_5"><b>5. Safety Check:</b></string>
+    <string name="start_5_detail">Ensure all moving parts have a clear range of motion without obstruction.</string>
+    <string name="start_5_detail2">Confirm that all safety guards and enclosures are in place.</string>
+
+    <!-- Daily Maintenance -->
+    <string name="daily_title">Daily Maintenance</string>
+    <string name="daily_a">1. Inspect all hardware components for signs of damage or wear:</string>
+    <string name="daily_a_detail">- Visually inspect each hardware component, including servo motors, stepper motor, Arduino board, potentiometer, and joystick controller.\n- Look for any cracks, breaks, or other visible damage.</string>
+    <string name="daily_b">2. Check electrical connections and power supply for any issues:</string>
+    <string name="daily_b_detail">- Ensure all electrical connections are secure and free from corrosion.\n- Check power supply cables for fraying or damage.\n- Verify that the power supply is providing the correct voltage.</string>
+    <string name="daily_c">3. Verify proper calibration and functionality of controls:</string>
+    <string name="daily_c_detail">- Test each control input (joystick, potentiometer) to ensure they respond correctly.\n- Check for any drift or inconsistency in control output.\n- Calibrate controls if necessary, according to manufacturer guidelines.</string>
+    <string name="daily_d">4. Clean external surfaces and remove any debris or obstructions:</string>
+    <string name="daily_d_detail">- Use a soft, dry cloth to wipe down all external surfaces of the hardware.\n- Remove any dust, dirt, or debris from vents or openings.\n- Check for any obstructions that may hinder the movement of moving parts.\n\n\n</string>
+
+    <!-- Weekly Maintenance -->
+    <string name="weekly_title">Weekly Maintenance</string>
+    <string name="weekly_a">1. Perform a thorough visual inspection of all moving parts:</string>
+    <string name="weekly_a_detail">- Carefully examine each moving part for signs of wear or damage.\n- Look for any unusual noises or vibrations during operation.\n- Pay special attention to bearings, gears, and other mechanical components.</string>
+    <string name="weekly_b">2. Lubricate moving components as needed to prevent friction and wear:</string>
+    <string name="weekly_b_detail">- Apply lubricant to bearings, gears, and other moving parts as recommended by the manufacturer.\n- Use only lubricants specified for use with your hardware components.\n- Wipe off any excess lubricant to prevent accumulation of dirt or debris.</string>
+    <string name="weekly_c">3. Check for loose fasteners or connections and tighten as necessary:</string>
+    <string name="weekly_c_detail">- Inspect all fasteners, bolts, and nuts for tightness.\n- Tighten any loose fasteners using appropriate tools.\n- Ensure that all electrical connections remain secure.\n\n\n</string>
+
+    <!-- Monthly Maintenance -->
+    <string name="monthly_title">Monthly Maintenance</string>
+    <string name="monthly_a">1. Conduct a comprehensive cleaning of all hardware components:</string>
+    <string name="monthly_a_detail">- Disassemble the hardware components as necessary for thorough cleaning.\n- Use compressed air to remove dust and debris from internal components.\n- Clean electronic contacts with a soft brush or electronic cleaning solution.</string>
+    <string name="monthly_b">2. Inspect electrical wiring and connections for signs of corrosion or damage:</string>
+    <string name="monthly_b_detail">- Check all electrical wiring for fraying, cuts, or damage.\n- Look for signs of corrosion on connectors or terminals.\n- Repair or replace any damaged wiring or connectors.</string>
+    <string name="monthly_c">3. Verify calibration of control mechanisms:</string>
+    <string name="monthly_c_detail">- Test control inputs again to ensure they remain calibrated and responsive.\n- Make any necessary adjustments to maintain proper calibration.\n- Document any changes made for future reference.\n\n\n</string>
+
+    <!-- Rotarius Rotor Assembly Model -->
+    <string name="rotarius_title"><b>LEARN ABOUT ROTARIUS ROTOR ASSEMBLY MODEL</b></string>
+
+    <!-- Rotor Hub -->
+    <string name="rotor_hub_title"><b>ROTOR HUB</b></string>
+    <string name="rotor_hub_desc">The rotor hub is a critical component of a helicopter\'s rotor system. It serves as the central connecting point where the rotor blades attach to the rotor mast, allowing them to rotate and generate lift. The design and functionality of the rotor hub are essential for the overall performance and control of the helicopter.</string>
+
+    <!-- Rotor Mast -->
+    <string name="rotor_mast_title"><b>ROTOR MAST</b></string>
+    <string name="rotor_mast_desc">The rotor mast is a critical component of a helicopter\'s rotor system. It is a vertical shaft that connects the rotor hub, where the rotor blades are attached, to the helicopter\'s main body or airframe. The rotor mast serves several essential functions, ensuring the proper operation and control of the helicopter.</string>
+
+    <!-- Rotor Grip -->
+    <string name="rotor_grip_title"><b>ROTOR GRIP</b></string>
+    <string name="rotor_grip_desc">A rotor grip is an essential component of a helicopter\'s rotor system. It is the part that connects the rotor blades to the rotor hub, allowing the blades to articulate and change their pitch. Rotor grips play a critical role in the control and stability of a helicopter.</string>
+
+    <!-- Rotor Blade -->
+    <string name="rotor_blade_title"><b>ROTOR BLADE</b></string>
+    <string name="rotor_blade_desc">A rotor blade is a fundamental component of a helicopter\'s rotor system. It is the airfoil that generates lift and thrust, enabling the helicopter to hover, move forward, backward, and laterally, as well as ascend and descend.</string>
+
+    <!-- Pitch Link Rod -->
+    <string name="pitch_link_title"><b>PITCH LINK ROD</b></string>
+    <string name="pitch_link_desc">A pitch link rod, also known simply as a pitch link, is a crucial component in a helicopter\'s rotor system. It connects the rotating swashplate to the rotor blades, allowing for precise control of the blade pitch angle.</string>
+
+    <!-- Upper and Lower Swashplate -->
+    <string name="swashplate_title"><b>UPPER AND LOWER SWASHPLATE</b></string>
+    <string name="swashplate_desc">The upper and lower swashplates are integral parts of a helicopter’s rotor system, working together to translate pilot inputs into precise rotor blade movements. The lower swashplate remains stationary and receives control inputs, while the upper swashplate rotates with the rotor mast and transmits these inputs to the rotor blades. Together, they enable effective cyclic and collective pitch control, ensuring the helicopter’s maneuverability and stability. Regular maintenance and inspection are crucial to ensuring their proper function and overall flight safety.\n\n\n</string>
+
+
+</resources>

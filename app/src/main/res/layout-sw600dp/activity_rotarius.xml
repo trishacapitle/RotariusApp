@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkgray"
+    tools:context=".Rotarius">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_height="80dp"
+        android:elevation="12dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:layout_centerVertical="true"
+                android:id="@+id/back_Button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rotarius Rotor Assembly Model"
+                android:textColor="@color/gold"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="24dp"
+                android:layout_toEndOf="@id/back_Button"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="@color/bl"
+            app:cardElevation="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotarius_title"
+                    android:textColor="@color/gold"
+                    android:textSize="48sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/rotor_assembly"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_hub_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:src="@drawable/rotor_hub"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_hub_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_mast_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:src="@drawable/rotor_mast"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_mast_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_grip_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/rotor_grip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_grip_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_blade_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/rotor_blade"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotor_blade_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pitch_link_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/pitch_link_rod"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pitch_link_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/swashplate_title"
+                    android:textColor="@color/gold"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPPER SWASHPLATE"
+                    android:textColor="@color/gold"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="25dp"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginBottom="24dp"
+                    android:src="@drawable/upper_swashplate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LOWER SWASHPLATE"
+                    android:textColor="@color/gold"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="25dp"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:src="@drawable/lower_swashplate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/swashplate_desc"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="50dp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

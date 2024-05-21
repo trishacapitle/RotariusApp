@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UserManual"
+        tools:targetApi="31">
+        <activity
+            android:name=".PDFViewer"
+            android:exported="false" />
+        <activity
+            android:name=".maintenance.MonthlyMaintenance"
+            android:exported="false" />
+        <activity
+            android:name=".maintenance.WeeklyMaintenance"
+            android:exported="false" />
+        <activity
+            android:name=".maintenance.DailyMaintenance"
+            android:exported="false" />
+        <activity
+            android:name=".startup.StartProd"
+            android:exported="false" />
+        <activity
+            android:name=".startup.PreStartCheck"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.GetStarted"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".onboarding.Onboarding"
+            android:exported="true" />
+        <activity
+            android:name=".QRCode"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewSection"
+            android:exported="false" />
+        <activity
+            android:name=".Rotarius"
+            android:exported="false" />
+        <activity
+            android:name=".maintenance.MaintenanceManual"
+            android:exported="false" />
+        <activity
+            android:name=".startup.StartUp"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.EmergencyShutdown"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.SoftwareIssues"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.GeneralMaintenance"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.MovementIssues"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.ConnectivityIssues"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.StepperMotorIssues"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.ServoMotorIssues"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.PowerIssues"
+            android:exported="false" />
+        <activity
+            android:name=".usermanual.SafetyPrecautions"
+            android:exported="false" />
+        <activity
+            android:name=".usermanual.OperatingInstructions"
+            android:exported="false" />
+        <activity
+            android:name=".usermanual.SetupInstructions"
+            android:exported="false" />
+        <activity
+            android:name=".usermanual.Components"
+            android:exported="false" />
+        <activity
+            android:name=".LearningMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".troubleshooting.Troubleshooting"
+            android:exported="false" />
+        <activity
+            android:name=".usermanual.UserManual"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

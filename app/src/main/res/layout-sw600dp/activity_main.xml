@@ -53,9 +53,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:textAlignment="center"
                     android:text="User Manual"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -89,7 +90,7 @@
                     android:layout_gravity="center"
                     android:text="Troubleshooting"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -124,7 +125,7 @@
                     android:layout_gravity="center"
                     android:text="Learning Materials"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     tools:ignore="HardcodedText" />
@@ -160,7 +161,7 @@
                     android:textAlignment="center"
                     android:text="Maintenance Manual"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -195,7 +196,7 @@
                     android:textAlignment="center"
                     android:text="Rotarius Rotor Assembly Model"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -231,7 +232,7 @@
                     android:layout_gravity="center"
                     android:text="QR Code"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -264,9 +265,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:textAlignment="center"
                     android:text="Start-up Checklist"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
@@ -301,7 +303,7 @@
                     android:layout_gravity="center"
                     android:text="Review Section"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
             </LinearLayout>

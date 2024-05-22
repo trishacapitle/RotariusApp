@@ -12,8 +12,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.usermanual.R;
-import com.example.usermanual.usermanual.Components;
-import com.example.usermanual.usermanual.UserManual;
 
 public class MaintenanceManual extends AppCompatActivity {
 

@@ -20,7 +20,6 @@ import com.example.usermanual.R;
 public class Onboarding extends AppCompatActivity {
 
     private ViewPager viewPager;
-    private ViewPagerAdapter viewPagerAdapter;
     private Button btnBack, btnNext;
 
     private final ViewPager.OnPageChangeListener viewPagerListener = new ViewPager.OnPageChangeListener() {
@@ -125,7 +124,7 @@ public class Onboarding extends AppCompatActivity {
         });
 
         viewPager = findViewById(R.id.viewPager);
-        viewPagerAdapter = new ViewPagerAdapter(this);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
         viewPager.setAdapter(viewPagerAdapter);
         viewPager.addOnPageChangeListener(viewPagerListener);
     }

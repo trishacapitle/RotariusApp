@@ -59,8 +59,8 @@
         \t\t • Connect the MG996R servo motors to their designated positions on the rotor assembly.\n\n
         \t\t • Attach the NEMA 17 stepper motor to its mounting point.\n\n
         \t\t • Connect the potentiometer to the stepper motor driver.\n\n
-        \t\t• Mount the Logitech Extreme 3D Pro controller securely.\n\n
-        \t\t• Assemble the 3D printed parts as per the provided diagram.
+        \t\t • Mount the Logitech Extreme 3D Pro controller securely.\n\n
+        \t\t • Assemble the 3D printed parts as per the provided diagram.
     </string>
     <string name="wiring_and_connections">
         \t\t• Connect the servo motors to the designated pins on the Arduino Mega.\n\n
@@ -77,7 +77,7 @@
     </string>
     <string name="initial_power_on">
         \t\t• Turn on the solar-powered power supply.\n\n
-        \t\t• Verify that all components receive power and the Arduino Mega lights up.
+        \t\t• Verify that all components receive power and the Arduino Mega lights up. \n\n
     </string>
 
     <string name="turning_on_the_system">
@@ -223,40 +223,40 @@
     \t\t\t\t• Function: Provides stability and support to the entire structure.\n\n\n
         \t\t• <b>Servo Base</b>\n\n
     \t\t\t\t• Description: Mounting platform for servo motors.\n\n
-    \t\t\t\t• Function: Secures the servos in place for optimal performance.
+    \t\t\t\t• Function: Secures the servos in place for optimal performance.\n\n\n
     </string>
 
 
     <string name="Terms_and_Conditions">
-    \t\t <b>Terms and Conditions</b>\n\n
+    <b>Terms and Conditions</b>\n\n
     \t\t Welcome to the Rotarius. These Terms and Conditions govern your use of the Application, provided by Rotarius research team located at Pangasinan. By using the Application, you agree to comply with and be bound by these Terms.\n\n
-    \t\t <b>2. Eligibility</b>\n\n
+    \t<b>2. Eligibility</b>\n\n
     \t\t The Application is intended for use by students, educators, and authorized personnel at WCC ATC Binalonan Campus. By using the Application, you represent and warrant that you are authorized to access and use it in accordance with these Terms.\n\n
-    \t\t <b>3. Use of the Application</b>\n\n
+    \t<b>3. Use of the Application</b>\n\n
     \t\t 3.1 Educational Purpose: The Application is designed for educational purposes to enhance student learning of rotor dynamics and control. Any other use is strictly prohibited.\n\n
     \t\t 3.2 User Conduct: Users agree to use the Application responsibly and ethically. Users shall not:\n\n
     \t\t\t\t Modify, distribute, or create derivative works based on the Application.\n\n
     \t\t\t\t Use the Application for any unlawful or fraudulent purpose.\n\n
     \t\t\t\t Interfere with the operation of the Application or access it in a manner that could damage, disable, or impair its functionality.\n\n
     \t\t 3.3 Hardware Interaction: Users must follow all provided guidelines and instructions when interacting with the hardware components associated with the Application to ensure safety and proper operation.\n\n
-    \t\t <b>4. Intellectual Property</b>\n\n
+    \t<b>4. Intellectual Property</b>\n\n
     \t\t All content, features, and functionality of the Application, including but not limited to text, graphics, logos, and software, are the exclusive property of Rotarius research team and are protected by intellectual property laws. Users are granted a limited, non-exclusive, non-transferable license to use the Application for its intended educational purpose.\n\n
-    \t\t <b>5. Privacy</b>\n\n
+    \t<b>5. Privacy</b>\n\n
     \t\t Your use of the Application is also governed by our Privacy Policy, which explains how we collect, use, and protect your information. By using the Application, you consent to our Privacy Policy.\n\n
-    \t\t <b>6. Limitation of Liability</b>\n\n
+    \t<b>6. Limitation of Liability</b>\n\n
     \t\t To the fullest extent permitted by law, Rotarius research team shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Application, even if we have been advised of the possibility of such damages. This includes, but is not limited to, damages for loss of profits, data, or other intangible losses.\n\n
-    \t\t <b>7. Disclaimer of Warranties</b>\n\n
+    \t<b>7. Disclaimer of Warranties</b>\n\n
     \t\t The Application is provided on an "as-is" and "as-available" basis. Rotarius research team makes no representations or warranties of any kind, express or implied, regarding the Application\'s operation or the information, content, or materials included therein. To the fullest extent permitted by law, we disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.\n\n
-    \t\t <b>8. Termination</b>\n\n
+    \t<b>8. Termination</b>\n\n
     \t\t We reserve the right to terminate or suspend your access to the Application, without notice, for conduct that we believe violates these Terms or is harmful to other users or the interests of Rotarius research team.\n\n
-    \t\t <b>9. Governing Law</b>\n\n
+    \t<b>9. Governing Law</b>\n\n
     \t\t These Terms shall be governed and construed in accordance with the laws of Philippines, without regard to its conflict of law provisions.\n\n
-    \t\t <b>10. Changes to Terms</b>\n\n
+    \t<b>10. Changes to Terms</b>\n\n
     \t\t We reserve the right to modify these Terms at any time. We will notify users of any changes by posting the new Terms on the Application. Your continued use of the Application after such changes constitutes your acceptance of the new Terms. \n\n
     </string>
     <string name="Safety_Precautions">
-    \t\t <b>SAFETY PRECAUTION</b>\n\n
-    \t\t Your safety is paramount when using our hardware with the app. Please adhere to the following safety precautions:\n\n
+    <b>SAFETY PRECAUTION</b>\n\n
+    \t Your safety is paramount when using our hardware with the app. Please adhere to the following safety precautions:\n\n
     \t\t <b>1. Read Instructions</b>: Before using the hardware, carefully read and understand the user manual provided. Familiarize yourself with the proper setup and operation procedures.\n\n
     \t\t <b>2. Inspect Equipment</b>: Before each use, visually inspect the hardware components for any signs of damage or wear. Do not use the hardware if you notice any defects or abnormalities.\n\n
     \t\t <b>3. Secure Setup</b>: Ensure that the hardware is securely assembled and mounted according to the manufacturer\'s guidelines. Use appropriate tools and fasteners to prevent any instability or movement during operation.\n\n

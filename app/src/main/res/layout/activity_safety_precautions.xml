@@ -69,14 +69,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/safety_precautions"
-                    android:textColor="@color/gold"
+                    android:textColor="@color/white"
                     android:textSize="22sp"
                     android:textStyle="normal"
                     android:textAlignment="textStart"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="12dp"
-                    android:layout_marginBottom="25dp"
+                    android:layout_marginBottom="12dp"
                     tools:ignore="HardcodedText" />
 
 

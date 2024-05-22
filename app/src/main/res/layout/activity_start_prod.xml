@@ -7,7 +7,7 @@
     android:background="@color/darkgray"
     android:orientation="vertical"
     android:id="@+id/main"
-    tools:context=".startup.startStartCheck">
+    tools:context=".startup.StartProd">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

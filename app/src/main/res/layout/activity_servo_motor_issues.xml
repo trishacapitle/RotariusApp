@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/servo_motors_issue"
-                    android:textColor="@color/gold"
+                    android:textColor="@color/white"
                     android:textSize="22sp"
                     android:textStyle="normal"
                     android:textAlignment="textStart"

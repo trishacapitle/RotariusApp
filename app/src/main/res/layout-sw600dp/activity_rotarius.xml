@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/darkgray"
+    android:id="@+id/main"
     tools:context=".Rotarius">
 
     <androidx.appcompat.widget.Toolbar

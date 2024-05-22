@@ -5,15 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.usermanual.R;
 
@@ -22,14 +17,13 @@ public class PreStartCheck extends AppCompatActivity {
     CheckBox checkBox1, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6;
     ImageView backBtn;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pre_start_check);
 
         backBtn = findViewById(R.id.back_Button);
-        backBtn.setOnClickListener(v->{onBackPressed();});
+        backBtn.setOnClickListener(v -> onBackPressed());
 
         checkBox1 = findViewById(R.id.checkBox1);
         checkBox2 = findViewById(R.id.checkBox2);
@@ -40,37 +34,37 @@ public class PreStartCheck extends AppCompatActivity {
 
         checkBox1.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox1);
             }
         });
         checkBox2.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox2);
             }
         });
         checkBox3.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox3);
             }
         });
         checkBox4.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox4);
             }
         });
         checkBox5.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox5);
             }
         });
         checkBox6.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                showConfirmationDialog();
+                showConfirmationDialog(checkBox6);
             }
         });
     }
 
-    private void showConfirmationDialog() {
+    private void showConfirmationDialog(CheckBox checkBox) {
         // Create AlertDialog.Builder
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
@@ -99,9 +93,8 @@ public class PreStartCheck extends AppCompatActivity {
         });
         negativeButton.setOnClickListener(v -> {
             // Revert the checked state
-            checkBox1.setChecked(false);
+            checkBox.setChecked(false);
             dialog.dismiss();
         });
     }
-
 }

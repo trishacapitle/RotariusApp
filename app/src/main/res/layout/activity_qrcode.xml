@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/darkgray"
     android:orientation="vertical"
+    android:id="@+id/main"
     tools:context=".QRCode">
 
     <androidx.appcompat.widget.Toolbar
@@ -53,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Scan to download the app."
-                    android:textColor="@color/gold"
+                    android:textColor="@color/white"
                     android:textSize="28sp"
                     android:textStyle="bold"
                     android:layout_gravity="center"

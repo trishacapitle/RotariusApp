@@ -1,7 +1,6 @@
 package com.example.usermanual.troubleshooting;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

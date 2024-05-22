@@ -29,7 +29,7 @@
         android:backgroundTint="@color/bl"
         android:padding="8dp"
         android:text="Get Started"
-        android:textColor="@color/gold"
+        android:textColor="@color/white"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="18sp"
         app:cornerRadius="8dp"

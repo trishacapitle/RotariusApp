@@ -1,21 +1,14 @@
 package com.example.usermanual.startup;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.usermanual.R;
-import com.example.usermanual.troubleshooting.ConnectivityIssues;
-import com.example.usermanual.troubleshooting.Troubleshooting;
 
 public class StartUp extends AppCompatActivity {
 
@@ -25,7 +18,6 @@ public class StartUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_start_up);
         initWidgets();
         setUpButtons();

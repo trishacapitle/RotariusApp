@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 import com.example.usermanual.R;
 
@@ -19,15 +21,20 @@ public class StartUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_up);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
         initWidgets();
         setUpButtons();
 
-        backBtn.setOnClickListener(v->{onBackPressed();});
+        backBtn.setOnClickListener(v-> onBackPressed());
     }
 
     private void setUpButtons() {
-        preStartBtn.setOnClickListener(v->{startActivity(new Intent(StartUp.this, PreStartCheck.class));});
-        startProdBtn.setOnClickListener(v->{startActivity(new Intent(StartUp.this, StartProd.class));});
+        preStartBtn.setOnClickListener(v-> startActivity(new Intent(StartUp.this, PreStartCheck.class)));
+        startProdBtn.setOnClickListener(v-> startActivity(new Intent(StartUp.this, StartProd.class)));
     }
 
     private void initWidgets() {

@@ -299,7 +299,7 @@
     <string name="start_4_detail2">Ensure the stepper motor speed range is appropriately set.</string>
     <string name="start_5"><b>5. Safety Check:</b></string>
     <string name="start_5_detail">Ensure all moving parts have a clear range of motion without obstruction.</string>
-    <string name="start_5_detail2">Confirm that all safety guards and enclosures are in place.</string>
+    <string name="start_5_detail2">Confirm that all safety guards and enclosures are in place.\n</string>
 
     <!-- Daily Maintenance -->
     <string name="daily_title">Daily Maintenance</string>
